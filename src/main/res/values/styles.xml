@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/daftGreen</item>
+        <item name="colorPrimaryVariant">@color/daftGreenDark</item>
+        <item name="colorSecondary">@color/daftBlue</item>
+    </style>
+
+    <style name="TextViewStyle" parent="Theme.MaterialComponents">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TextViewStyleLand" parent="Theme.MaterialComponents">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">80dp</item>
+        <item name="android:layout_marginEnd">80dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="FloatingActionButtonStyle" parent="Theme.MaterialComponents">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/daftBlue</item>
+
+    </style>
+
+</resources>
